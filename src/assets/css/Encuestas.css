@@ -1,0 +1,142 @@
+/* Estilos generales para cada pregunta */
+.pregunta {
+    margin-bottom: 20px; /* Espacio entre preguntas */
+  }
+  
+  .pregunta-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .pregunta-select {
+  width: 40%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+  
+  /* Estilos específicos para cada pregunta */
+  /* Pregunta 1 - Edad */
+  
+  .pregunta.edad .pregunta-label {
+    color: #3F51B5; /* Cambia el color del texto */
+    
+  }
+
+  
+  /* Pregunta 2 - IMC */
+  .pregunta.imc .pregunta-label {
+    color: #3F51B5; /* Cambia el color del texto */
+  }
+  
+  /* Pregunta 3 - Perímetro abdominal */
+  .pregunta.perimetro .pregunta-label {
+    color: #3F51B5; /* Cambia el color del texto */
+  }
+  
+  /* Pregunta 4 - Actividad física */
+  .pregunta.actividad .pregunta-label {
+    color: #3F51B5; /* Cambia el color del texto */
+  }
+  
+  /* Pregunta 5 - Consumo de frutas y verduras */
+  .pregunta.consumo .pregunta-label {
+    color: #3F51B5; /* Cambia el color del texto */
+  }
+  
+  /* Pregunta 6 - Hipertensión arterial */
+  .pregunta.hipertension .pregunta-label {
+    color: #3F51B5; /* Cambia el color del texto */
+  }
+  
+  /* Pregunta 7 - Niveles altos de glucosa */
+  .pregunta.glucosa .pregunta-label {
+    color: #3F51B5; /* Cambia el color del texto */
+  }
+  
+  /* Pregunta 8 - Antecedentes de Diabetes Mellitus en la familia */
+  .pregunta.antecedentes .pregunta-label {
+    color: #3F51B5; /* Cambia el color del texto */
+  }
+  /* Estilo para la tarjeta */
+.card.pregunta.perimetro {
+  border: 2px solid #4f09db;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  width: 500px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card.pregunta.perimetro:hover {
+  transform: scale(1.05);
+}
+
+/* Estilo para el div dentro de la tarjeta */
+.card.pregunta.perimetro .card-body {
+  margin-top: 10px;
+}
+
+.card.pregunta.perimetro h3 {
+  font-size: 20px;
+  color: #4f09db;
+  margin-bottom: 10px;
+}
+
+.card.pregunta.perimetro p {
+  font-size: 16px;
+  color: #333;
+}
+
+.card.pregunta.perimetro select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.card.pregunta.perimetro button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4f09db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card.pregunta.perimetro button:hover {
+  background-color: #350677;
+}
+
+.calcular-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.calcular-btn:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+  

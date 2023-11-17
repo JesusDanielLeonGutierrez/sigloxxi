@@ -1,0 +1,261 @@
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bodyLogin {
+  color: #999;
+  font-size: 12px;
+  margin: 0;
+}
+
+.aLogin {
+  text-decoration: none;
+  color: #000000;
+  transition: all 0.3s ease; }
+  .aLogin:hover {
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 0.062); }
+
+:focus {
+  outline: none; }
+
+
+.wrapperLogin {
+  padding: 40px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url("../images/Diabetes.jpg") no-repeat;
+  background-size: cover;
+}
+
+.innerLogin {
+  max-width: 100%;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0px 0px 25px 0px rgb(0, 0, 0);
+  -webkit-box-shadow: 0px 25x 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.formLogin {
+  width: 100%;
+  padding-top: 77px;
+  padding-right: 60px;
+  padding-left: 15px;
+}
+
+.h3Login {
+  font-size: 35px;
+  font-family: "ElMessiri-SemiBold";
+  text-align: center;
+  margin-bottom: 27px;
+  color: #fdcae1;
+}
+
+.h3{
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 90px;
+}
+
+.form-holderLogin {
+  padding-left: 24px;
+  position: relative;
+}
+
+.form-holderLogin:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #000000;
+  position: absolute;
+  left: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.form-holderLogin.active:before {
+  border: 2px solid transparent;
+  background: #000000;
+}
+
+.form-controlLogin {
+  display: block;
+  width: 100%;
+  border-radius: 23.5px;
+  height: 47px;
+  padding: 0 24px;
+  color: #808080;
+  font-size: 13px;
+  font-family:"Montserrat-SemiBold";
+  border: none;
+  background: #dbd1d1ef;
+  margin-bottom: 25px;
+}
+
+.form-controlLogin::-webkit-input-placeholder {
+  font-size: 13px;
+  color: #000000e5;
+  text-transform: uppercase;
+  font-family: "Montserrat-Regular";
+}
+
+.form-controlLogin::-moz-placeholder {
+  font-size: 13px;  
+  color: #808080;
+  text-transform: uppercase;
+  font-family: "Montserrat-Regular";
+}
+
+
+
+.buttonLogin {
+  letter-spacing: 2px;
+  margin: 25px;
+  border: none;
+  width: 133px;
+  height: 47px;
+  margin-right: 19px;
+  border-radius: 23.5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: rgba(4, 140, 252, 0.925);
+  font-size: 15px;
+  color: #000000;
+  text-transform: uppercase;
+  font-family: "ElMessiri-SemiBold";
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+}
+
+.buttonLogin:hover {
+  -webkit-animation-name: hvr-wobble-horizontal;
+  animation-name: hvr-wobble-horizontal;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.form-loginLogin {
+  display: flex;
+  align-items: center;
+  margin-left: 130px;
+}
+
+
+@-webkit-keyframes hvr-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes hvr-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+// Citas
+.buttonCitas {
+  letter-spacing: 2px;
+  border: none;
+  width: 300px;
+  height: 47px;
+  margin-right: 19px;
+  border-radius: 23.5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: rgba(4, 140, 252, 0.925);
+  font-size: 15px;
+  color: #000000;
+  text-transform: uppercase;
+  font-family: "ElMessiri-SemiBold";
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.buttonCitas:hover {
+  -webkit-animation-name: hvr-wobble-horizontal;
+  animation-name: hvr-wobble-horizontal;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}

@@ -1,0 +1,93 @@
+/* Estilo para el contenedor principal de Inicio */
+.inicio-container {
+  background-color: #f7f7f7; /* Color de fondo suave */
+    padding: 20px;
+border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo para la tarjeta que contiene la imagen y el título */
+.inicio-container .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  margin-bottom: 20px;
+background-color: #ffffff; /* Fondo blanco */
+  border: none; /* Sin borde */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo para el título "Diabetes Mellitus" */
+.inicio-container .card-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333; /* Color de texto oscuro */
+  margin-bottom: 15px; /* Espaciado inferior */
+}
+
+/* Estilo para la imagen principal */
+.inicio-container .card-img-top {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 10px; /* Bordes redondeados en la esquina superior izquierda */
+  border-top-right-radius: 10px; /* Bordes redondeados en la esquina superior derecha */
+}
+
+/* Estilo para las secciones de información */
+.inicio-container .info-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333; /* Color de texto oscuro */
+  margin-top: 20px; /* Espaciado superior */
+}
+
+.inicio-container .info-text {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555; /* Color de texto ligeramente más oscuro */
+  margin-bottom: 20px;
+}
+
+/* Personaliza el carrusel */
+.inicio-container .carousel-root {
+  background-color: transparent; /* Fondo transparente */
+}
+
+/* Personaliza la flecha del carrusel */
+.inicio-container .carousel-root .carousel .control-arrow {
+  background-color: #c4ced8; /* Color de fondo azul para las flechas */
+  font-size: 24px;
+}
+
+/* Personaliza los puntos indicadores del carrusel */
+.inicio-container .carousel-root .carousel .thumb {
+  background-color: #a2a2a2; /* Color de fondo gris para los puntos indicadores */
+  box-shadow: none; /* Elimina la sombra */
+}
+
+/* Personaliza los puntos indicadores activos del carrusel */
+.inicio-container .carousel-root .carousel .thumb.selected {
+  background-color: #333; /* Color de fondo oscuro para el punto indicador activo */
+}
+
+/* Estilo para botones */
+.inicio-container .btn {
+  background-color: #929da8; /* Color de fondo azul para los botones */
+  color: #fff; /* Color de texto blanco */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.inicio-container .btn:hover {
+  background-color: #82878d; /* Cambio de color al pasar el mouse */
+}
+
+/* Estilo para enlaces */
+.inicio-container a {
+  color: #74808d; /* Color de texto azul para enlaces */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.inicio-container a:hover {
+  color: #5e666e; /* Cambio de color al pasar el mouse */
+}
